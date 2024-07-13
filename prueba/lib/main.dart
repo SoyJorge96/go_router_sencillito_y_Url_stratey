@@ -22,19 +22,19 @@ class MyApp extends StatelessWidget {
         GoRoute(
           path: '/',
           builder: (context, state) {
-            return HomeView();
+            return const HomeView();
           },
         ),
         GoRoute(
           path: '/login',
           builder: (context, state) {
-            return LoginView();
+            return const LoginView();
           },
         ),
         GoRoute(
           path: '/dashboard',
           builder: (context, state) {
-            return Dashboard();
+            return const Dashboard();
           },
         ),
       ],
